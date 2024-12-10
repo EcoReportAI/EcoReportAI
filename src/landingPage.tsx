@@ -104,7 +104,7 @@ const Home = () => {
             <section>
                 <div className="flex pt-[30px] px-[80px] sm:px-[25px] md:px-[20px] lg:px-[80px] sm:flex-col md:flex-col lg:flex-row">
                     <h2 className="font-bold text-left text-[#14192B] pl-[60px] text-[25px] w-[70%] sm:text-[22px] md:text-[25px] lg:text-[30px] sm:w-full md:w-[80%] lg:w-[70%]">Why Choose <br/> Green-Badge?</h2>                            
-                    <img className="w-[50%] opacity-90 sm:invisible md:invisible lg:visible" src="/src/assets/images/Rectangle 16.webp" alt="" />
+                    <img className="w-[50%] opacity-90 visible sm:invisible md:invisible lg:visible" src="/src/assets/images/Rectangle 16.webp" alt="" />
                 </div> 
                 <div className="flex py-[2px] px-[80px] w-[87%] flex-row relative top-[-300px] left-[5%] sm:px-[20px] md:px-[20px] lg:px-[80px] sm:top-[-100px] md:top-[-100px] lg:top-[-300px] sm:flex-col md:flex-col lg:flex-row" data-aos="fade-right">
                     <div className="bg-[#358019] flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] rounded-l-lg sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
@@ -143,8 +143,8 @@ const Home = () => {
                             <a href="/" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px] sm:mb-[10px] md:mb-[10px] lg:mb-0" type="button">Impact Investor</button></a>
                         </div>
                         </div>
-                        <img className="w-[30%] object-contain sm:invisible md:invisible lg:visible" src="/src/assets/images/FB_IMG_16953304614928263 34 (1).webp" alt="" />
-                        <img className="w-[15%] sm:invisible md:invisible lg:visible" src="/src/assets/images/Lady on yellow 1.webp" alt="" />
+                        <img className="w-[30%] object-contain visible sm:invisible md:invisible lg:visible" src="/src/assets/images/FB_IMG_16953304614928263 34 (1).webp" alt="" />
+                        <img className="w-[15%] visible sm:invisible md:invisible lg:visible" src="/src/assets/images/Lady on yellow 1.webp" alt="" />
                     </div>
                 </div>
             </section>
