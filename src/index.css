@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: "Montserrat", serif;
+}
+/* .bg {
+  background-image: linear-gradient(right,rgba(75, 176, 34, 1),rgba(75, 176, 34, 0.44),url('../src/assets/images/Rectangle\ 16.webp'));
+} */
