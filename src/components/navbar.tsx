@@ -7,7 +7,7 @@ function NavBar () {
     return (
         <>
             <div className="fixed w-full z-[1000] p-[5px] py-[7px] bg-gradient-to-r from-[#011F29] to-[#143E14] shadow-md">
-                <nav className="flex justify-between items-center my-[7px] mx-20 h-10 pb-13 sm:mx-5 md:mx-5 lg:mx-20">
+                <nav className="flex justify-between items-center my-[7px] mx-20 h-10 pb-13 sm:mx-5 sm:mr-[45px] md:mx-5 md:mr-[45px] lg:mr-0 lg:mx-20">
                     <div className="flex justify-center items-center w-[20%] sm:w-full sm:justify-between md:w-full lg:w-[20%]">
                     {/* flex justify-between items-center w-full md:w-full lg:w-[20%] lg:justify-between */}
                         <a href="/"><img className="w-[10%] sm:w-[45%] md:w-[15%] lg:w-[60%]" src="/icons/Green badge logo.webp" alt="" /></a>
