@@ -234,7 +234,7 @@ const Home = () => {
                 <div className="my-[50px] mx-[90px] sm:mx-[20px] md:mx-[20px] lg:mx-[90px]">
                 <Accordion className="" allowZeroExpanded>
                         {GreenData.map((GreenDatas) => (
-                            <AccordionItem  key={GreenDatas.id}>
+                            <AccordionItem  key={GreenDatas.id} onClick={handleAccordion}>
                                 <div className="">
                                     <AccordionItemHeading>
                                         <AccordionItemButton className="">
@@ -245,7 +245,7 @@ const Home = () => {
                                             </div>
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
-                                    <AccordionItemPanel className="text-left w-[80%] pl-[290px] transition ease-in-out delay-100 sm:pl-[20px] md:pl-[20px] lg:-pl-[290px] sm:w-full  md:w-[90%] lg:w-[80%]">
+                                    <AccordionItemPanel className="text-left w-[80%] pl-[290px] transition ease-in-out delay-100 sm:pl-[20px] md:pl-[20px] lg:pl-[290px] sm:w-full md:w-[90%] lg:w-[80%]">
                                         <p className='text-[#8E8F93] mb-[30px] mt-[10px] sm:text-[15px] md:text-[15px] lg:text-[16px]'>{GreenDatas.answer}</p>
                                     </AccordionItemPanel>
                                 </div>
