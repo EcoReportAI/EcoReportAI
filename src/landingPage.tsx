@@ -51,7 +51,7 @@ const Home = () => {
                                 <a className="text-[14px] mr-[20px]" href="#works" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border border-[#03FF95] text-[#008890] bg-[#FFFFFF] rounded-[4px] hover:bg-gray-300" type="button">Learn More...</button></a>
                             </div>
                         </div>
-                        <img src="/src/assets/images/image_fx_ (5) 1.webp" className='w-[35%] md:w-[40%] lg:w-[35%] sm:hidden md:hidden lg:flex' alt="" />
+                        <img src="/images/image_fx_ (5) 1.webp" className='w-[35%] md:w-[40%] lg:w-[35%] sm:hidden md:hidden lg:flex' alt="" />
                     </div>
                 </div>
             </section>
@@ -62,7 +62,7 @@ const Home = () => {
                     <div className="flex pt-[30px] pb-[40px] justify-center items-center flex-row sm:flex-col md:flex-col lg:flex-row lg:flex" data-aos="fade-right">
                         <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
                             <div className="px-[30px]">
-                                <img className="w-[20%]" src="/src/assets/icons/wired-gradient-948-stock-share 1.webp" alt="" />
+                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1.webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Developers:</h2>
                                 <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Submit your sustainability project for certification.</li>
@@ -71,11 +71,11 @@ const Home = () => {
                                     <li className="list-disc">Real-time environmental and social impact reporting.</li>
                                 </ul>
                             </div>
-                            <img className="" src="/src/assets/images/Rectangle 10.webp" alt="" />
+                            <img className="" src="/images/Rectangle 10.webp" alt="" />
                         </div>
                         <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
                             <div className="px-[30px]">
-                                <img className="w-[20%]" src="/src/assets/icons/wired-gradient-948-stock-share 1 (1).webp" alt="" />
+                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (1).webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Investors:</h2>
                                 <ul className="text-black text-[11px] space-y-6 mt-[10px] mb-[20px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Browse certified projects with transparent, verified data.</li>
@@ -83,11 +83,11 @@ const Home = () => {
                                     <li className="list-disc">Monitor your investments' impact with real-time updates.</li>
                                 </ul>
                             </div>
-                            <img className="object-fill" src="/src/assets/images/h2.webp" alt="" />
+                            <img className="object-fill" src="/images/h2.webp" alt="" />
                         </div>
                         <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
                             <div className="px-[30px]">
-                                <img className="w-[20%]" src="/src/assets/icons/wired-gradient-948-stock-share 1 (2).webp" alt="" />
+                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (2).webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Municipal's:</h2>
                                 <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Certify local sustainability projects to meet environmental goals.</li>
@@ -95,7 +95,7 @@ const Home = () => {
                                     <li className="list-disc">Promote green investments and showcase city-wide sustainability efforts.</li>
                                 </ul>
                             </div>
-                            <img className="object-fill" src="/src/assets/images/Rectangle 10 (2).webp" alt="" />
+                            <img className="object-fill" src="/images/Rectangle 10 (2).webp" alt="" />
                         </div>
                     </div>
                 </div>
@@ -104,26 +104,26 @@ const Home = () => {
             <section>
                 <div className="flex pt-[30px] px-[80px] sm:px-[25px] md:px-[20px] lg:px-[80px] sm:flex-col md:flex-col lg:flex-row">
                     <h2 className="font-bold text-left text-[#14192B] pl-[60px] text-[25px] w-[70%] sm:text-[22px] md:text-[25px] lg:text-[30px] sm:w-full md:w-[80%] lg:w-[70%]">Why Choose <br/> Green-Badge?</h2>                            
-                    <img className="w-[50%] opacity-90 visible sm:invisible md:invisible lg:visible" src="/src/assets/images/Rectangle 16.webp" alt="" />
+                    <img className="w-[50%] opacity-90 visible sm:invisible md:invisible lg:visible" src="/images/Rectangle 16.webp" alt="" />
                 </div> 
                 <div className="flex py-[2px] px-[80px] w-[87%] flex-row relative top-[-300px] left-[5%] sm:px-[20px] md:px-[20px] lg:px-[80px] sm:top-[-100px] md:top-[-100px] lg:top-[-300px] sm:flex-col md:flex-col lg:flex-row" data-aos="fade-right">
                     <div className="bg-[#358019] flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] rounded-l-lg sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
-                        <img className="w-[28%] mb-[20px]" src="/src/assets/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 1.webp" alt="" />
+                        <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 1.webp" alt="" />
                         <h2 className="font-bold text-center mb-[20px] text-[15px]">Scalable for Every City:</h2>
                         <p className="font-bold text-center text-[15px] w-[90%]">Adaptable to different cities uniqueness, size and sustainability goals</p>
                     </div>
                     <div className="bg-[#4BB022] flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
-                        <img className="w-[28%] mb-[20px]" src="/src/assets/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 1 (1).webp" alt="" />
+                        <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 1 (1).webp" alt="" />
                         <h2 className="font-bold text-center mb-[20px] text-[15px]">Municipal Certification:</h2>
                         <p className="font-bold text-center text-[15px] w-[90%]">Streamlined project certification and sustainability tracking.</p>
                     </div>
                     <div className="bg-[#FBD048] text-black flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
-                        <img className="w-[28%] mb-[20px]" src="/src/assets/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 2.webp" alt="" />
+                        <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 2.webp" alt="" />
                         <h2 className="font-bold text-center mb-[20px] text-[15px]">Impact Tracking Dashboard: </h2>
                         <p className="font-bold text-center text-[15px] w-[90%]">Monitor and report environmental, social and economic impacts</p>
                     </div>
                     <div className="bg-[#D9D9D9] text-[#070707] flex justify-center items-center flex-col px-[20px] py-[15px] w-[50%] rounded-r-lg pb-[70px] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
-                        <img className="w-[28%] mb-[20px]" src="/src/assets/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 3.webp" alt="" />
+                        <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 3.webp" alt="" />
                         <h2 className="font-bold text-center mb-[20px] text-[15px]">Marketplace of Impact:</h2>
                         <p className="font-bold text-center text-[15px] w-[90%]">Accelerate green financing through the carbon market.</p>
                     </div>
@@ -143,8 +143,8 @@ const Home = () => {
                             <a href="/" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px] sm:mb-[10px] md:mb-[10px] lg:mb-0" type="button">Impact Investor</button></a>
                         </div>
                         </div>
-                        <img className="w-[30%] object-contain visible sm:invisible md:invisible lg:visible" src="/src/assets/images/FB_IMG_16953304614928263 34 (1).webp" alt="" />
-                        <img className="w-[15%] visible sm:invisible md:invisible lg:visible" src="/src/assets/images/Lady on yellow 1.webp" alt="" />
+                        <img className="w-[30%] object-contain visible sm:invisible md:invisible lg:visible" src="/images/FB_IMG_16953304614928263 34 (1).webp" alt="" />
+                        <img className="w-[15%] visible sm:invisible md:invisible lg:visible" src="/images/Lady on yellow 1.webp" alt="" />
                     </div>
                 </div>
             </section>
@@ -154,9 +154,9 @@ const Home = () => {
                     <h2 className="font-bold text-left text-[#14192B] pl-[60px] text-[25px] text-center sm:pl-[10px] md:pl-[10px] lg:pl-[60px] sm:text-[22px] md:text-[25px] lg:text-[30px]">What Our Users Are Saying</h2>
                     <div className="flex justify-center items-center flex-row mt-[30px] sm:flex-col md:flex-col lg:flex-row">
                         <div className="flex justify-center items-center flex-row sm:flex-col md:flex-col lg:flex-row sm:items-start sm:justify-start md:items-start md:justify-start lg:items-center lg:justify-center">
-                            <img className="w-[30%] mt-[30px]" src="/src/assets/images/Rectangle 20.webp" alt="" />
+                            <img className="w-[30%] mt-[30px]" src="/images/Rectangle 20.webp" alt="" />
                             <div className="ml-[20px] sm:ml-0 md:ml-0 lg:ml-[20px] sm:mt-[20px] md:mt-[20px] lg:mt-0">
-                                <img className="w-[20%] mb-[20px]" src="/src/assets/icons/Review.webp" alt="" />
+                                <img className="w-[20%] mb-[20px]" src="/icons/Review.webp" alt="" />
                                 <p className="text-black w-[90%] mb-[20px] font-normal">"Thanks to Green-Badge, our renewable energy project received global recognition and measurable impact tracking."</p>
                                 <div className="flex justify-left items-center">
                                     <h2 className="font-bold text-[#14192B] text-[18px] mr-[10px]">– Abdulsalam R.,</h2>
@@ -165,9 +165,9 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="flex justify-center items-center sm:flex-col md:flex-col lg:flex-row sm:items-start sm:justify-start md:items-start md:justify-start lg:items-center lg:justify-center">
-                            <img className="w-[25%] mt-[30px]" src="/src/assets/images/Rectangle 21.webp" alt="" />
+                            <img className="w-[25%] mt-[30px]" src="/images/Rectangle 21.webp" alt="" />
                             <div className="ml-[20px] sm:ml-0 md:ml-0 lg:ml-[20px] sm:mt-[20px] md:mt-[20px] lg:mt-0">
-                                <img className="w-[20%] mb-[20px]" src="/src/assets/icons/Review.webp" alt="" />
+                                <img className="w-[20%] mb-[20px]" src="/icons/Review.webp" alt="" />
                                 <p className="text-black w-[90%] mb-[20px] font-normal sm:w-full md:w-full lg:w-[90%]">"I can easily track and offset my company's carbon emissions with verified credits through Green-Badge. It's a game changer for corporate sustainability."</p>
                                 <div className="flex justify-left items-center">
                                     <h2 className="font-bold text-[#14192B] text-[18px] mr-[10px]">– Phillips B.,</h2>
@@ -240,7 +240,7 @@ const Home = () => {
                                         <AccordionItemButton className="">
                                             <div className="px-[290px] text-[#444C66] flex justify-between items-center w-[90%]  mb-[30px] sm:px-[20px] md:px-[20px] lg:px-[290px]">
                                                 <h1 className="font-bold text-[19px] mr-[10px]">{GreenDatas.question}</h1>
-                                                <img className={!openAccordion ? 'rotate-0 w-[4%]' : 'rotate-[180deg] w-[4%]'} src="/src/assets/icons/bottom.png" alt="" />
+                                                <img className={!openAccordion ? 'rotate-0 w-[4%]' : 'rotate-[180deg] w-[4%]'} src="/icons/bottom.png" alt="" />
                                                 {/* {!openAccordion ? 'rotate-0 w-[7%] object-contain' : 'rotate-[90deg] w-[7%] object-contain'} */}
                                             </div>
                                         </AccordionItemButton>

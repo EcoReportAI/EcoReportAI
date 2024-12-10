@@ -10,9 +10,9 @@ function NavBar () {
                 <nav className="flex justify-between items-center my-[7px] mx-20 h-10 pb-13 sm:mx-5 md:mx-5 lg:mx-20">
                     <div className="flex justify-center items-center w-[20%] sm:w-full sm:justify-between md:w-full lg:w-[20%]">
                     {/* flex justify-between items-center w-full md:w-full lg:w-[20%] lg:justify-between */}
-                        <a href="/"><img className="w-[10%] sm:w-[45%] md:w-[15%] lg:w-[60%]" src="/src/assets/icons/Green badge logo.webp" alt="" /></a>
+                        <a href="/"><img className="w-[10%] sm:w-[45%] md:w-[15%] lg:w-[60%]" src="/icons/Green badge logo.webp" alt="" /></a>
                         <div className="w-0 sm:w-[70%] md:w-8 lg:w-0 flex justify-end lg:hidden" onClick={showNav}>
-                           {!nav ? <img className="cursor-pointer w-[0%] sm:w-[40%] md:w-[80%] lg:w-[0%]" src="/src/assets/icons/menu.png" alt=""/> : <img className="cursor-pointer w-[0%] sm:w-[40%] md:w-[70%] lg:w-[0%]" src="/src/assets/icons/close.png" alt=""/>}
+                           {!nav ? <img className="cursor-pointer w-[0%] sm:w-[40%] md:w-[80%] lg:w-[0%]" src="/icons/menu.png" alt=""/> : <img className="cursor-pointer w-[0%] sm:w-[40%] md:w-[70%] lg:w-[0%]" src="/src/assets/icons/close.png" alt=""/>}
                         </div>
                     </div>
                     <ul className="flex justify-between items-center text-[14px] space-x-6 sm:hidden md:hidden lg:flex">
