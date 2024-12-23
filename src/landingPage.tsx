@@ -17,22 +17,30 @@ const Home = () => {
         {
             id: 1,
             question: 'What is EcoReportAI?',
-            answer:'EcoReportAI is an AI-powered platform that simplifies sustainability reporting, ensures ESG compliance and certifies sustainability efforts using blockchain technology.'
+            answer:'EcoReportAI is an AI-powered platform designed to simplify ESG compliance and reporting while delivering secure, verifiable data with blockchain technology.'
         },
         {
             id: 2,
-            question: 'Who is EcoReportAI for?',
-            answer:'EcoReportAI is built for businesses, professionals and regulators seeking scalable, efficient and compliant ESG reporting solutions.'
+            question: 'What is Green-Badge?',
+            answer:'Green-Badge is EcoReportAI’s eco-certification framework that provides blockchain-verified, tamper-proof sustainability credentials for businesses and their stakeholders.'
         },
         {
             id: 3,
-            question: 'How does blockchain improve the process?',
-            answer: 'Blockchain technology makes all reports secure, tamper-proof and verifiable, ensuring trust and transparency for stakeholders.'
+            question: 'Do EcoReportAI support global compliance?',
+            answer: 'Yes, EcoReportAI supports leading frameworks like GRI, CSRD, SASB and the EU Taxonomy, ensuring compliance across regions and industries'
         },
         {
             id: 4,
-            question: 'Can EcoReportAI help us comply with global regulations?',
-            answer: 'Yes, EcoReportAI aligns with global standards such as EU CSRD, ISO and GRI ensuring compliance across regions and industries.'
+            question: 'What are the main use cases of the Green-Badge Framework?',
+            answer: (
+                <>
+                    <div>
+                        <p><strong>Regulatory Compliance: </strong>Meet global and local ESG reporting requirements.</p>
+                        <p><strong>Supply Chain Validation: </strong> Verify sustainability claims of suppliers through blockchain-backed credentials.</p>
+                        <p><strong>Internal ESG Auditing: </strong>Benchmark and audit internal ESG performance with AI-driven insights.</p>
+                    </div>
+                </>
+            )
         }
 
     ]
@@ -45,7 +53,7 @@ const Home = () => {
                     <div className='flex justify-center items-center flex-row sm:items-start md:items-start lg:items-center sm:flex-col md:flex-col lg:flex-row'>
                         <div className="pt-[40px] w-[70%] sm:w-[90%] md:w-[70%] lg:w-[70%]">
                             <h2 className="h mb-2 text-[50px] text-white leading-[60px] font-bold mb-[30px] w-[90%]  sm:w-full md:w-[98%] lg:w-[90%] sm:text-[25px] md:text-[32px] sm:leading-[30px] md:leading-[40px] lg:text-[50px] lg:leading-[60px]">Scaling ESG Compliance with AI and Blockchain Trust</h2>
-                            <p className='w-[85%] text-white font-bold text-bold text-[17px] mb-7 sm:text-[15px] md:text-[16px] lg:text-[16px] sm-full md:w-full lg:w-[85%] sm:text-[13px] md:text-[14px] lg:text-[17px]'>EcoReportAI simplifies sustainability reporting, ensures compliance across industries and regions, and builds stakeholder trust through AI-driven insights and blockchain-backed certifications.</p>
+                            <p className='w-[85%] text-white font-bold text-bold text-[17px] mb-7 sm:text-[15px] md:text-[16px] lg:text-[16px] sm-full md:w-full lg:w-[85%] sm:text-[13px] md:text-[14px] lg:text-[17px]'>EcoReportAI simplifies sustainability reporting and ensures compliance with AI-powered insights and blockchain-secured Green-Badge eco-certifications, building trust across businesses, investors and regulatory networks.</p>
                             <div className='text-[14px] sm:mb-[20px] md:mb-[20px] lg:mb-0'>
                                 <a href="/" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px]" type="button">Get Started</button></a>
                                 <a className="text-[14px] mr-[20px]" href="#works" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border border-[#03FF95] text-[#008890] bg-[#FFFFFF] rounded-[4px] hover:bg-gray-300" type="button">Learn More...</button></a>
@@ -60,41 +68,41 @@ const Home = () => {
                 <div className="pt-[30px] px-[80px] sm:px-[30px] md:px-[30px] lg:px-[80px]">
                     <h2 className="font-bold text-center text-[#14192B] text-[25px] sm:text-[20px] md:text-[20px] lg:text-[25px]">How EcoReportAI Works</h2>
                     <div className="flex pt-[30px] pb-[40px] justify-center items-center flex-row sm:flex-col md:flex-col lg:flex-row lg:flex" data-aos="fade-right">
-                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
-                            <div className="px-[30px]">
+                        <div className="bg-green-100 rounded-md pt-[9px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
+                            <div className="px-[14px]">
                                 <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1.webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Businesses & Corporations</h2>
-                                <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
+                                <ul className="text-black text-[11px] space-y-1 mt-[10px] mb-[20px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Automated ESG Data Collection: Seamlessly connect to internal and external systems for real-time data integration.</li>
-                                    <li className="list-disc">AI-Powered Analysis: Assess ESG performance against industry metrics and global standards.</li>
-                                    <li className="list-disc">Comprehensive Compliance: Generate actionable, audit-ready reports tailored to regulations like CSRD, GRI, and SASB.</li>
+                                    <li className="list-disc">AI-Powered Insights: Benchmark performance against global standards like GRI, CSRD and SASB.</li>
+                                    <li className="list-disc">Compliance Simplified: Generate actionable, audit-ready ESG reports tailored for regulations and stakeholders.</li>
+                                </ul>
+                            </div>
+                            <img className="object-fill" src="/images/Rectangle 10 (2).webp" alt="" />
+                        </div>
+                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
+                            <div className="px-[20px]">
+                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (1).webp" alt="" />
+                                <h2 className="font-bold text-[#14192B] text-[20px]">For Stakeholders & Investors</h2>
+                                <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
+                                    <li className="list-disc w-[96%]">Verified ESG Reports: Access blockchain-secured, tamper-proof data to reduce greenwashing risks.</li>
+                                    <li className="list-disc">Real-Time Progress Tracking: Benchmark organizations against peer groups and industry targets.</li>
+                                    <li className="list-disc">Data-Driven Investments: Leverage insights to make informed ESG investment and partnership decisions.</li>
                                 </ul>
                             </div>
                             <img className="" src="/images/Rectangle 10.webp" alt="" />
                         </div>
-                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-0 sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:mb-[20px] md:mb-[20px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
-                            <div className="px-[30px]">
-                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (1).webp" alt="" />
-                                <h2 className="font-bold text-[#14192B] text-[20px]">For Professionals & Consultants</h2>
-                                <ul className="text-black text-[11px] space-y-6 mt-[10px] mb-[20px] ml-[20px]">
-                                    <li className="list-disc w-[96%]">Gap Analysis & Insights: Use real-time data to identify areas for improvement.</li>
-                                    <li className="list-disc">Customizable Reports: Deliver compliant, blockchain-secured reports to clients.</li>
-                                    <li className="list-disc">Long-Term Strategy Planning: Monitor ESG performance to align with sustainability goals.</li>
+                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
+                            <div className="px-[20px]">
+                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (2).webp" alt="" />
+                                <h2 className="font-bold text-[#14192B] text-[20px]">For Regulators</h2>
+                                <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
+                                    <li className="list-disc w-[96%]">Tamper-Proof Compliance Data: Ensure security and traceability of submitted ESG reports with blockchain technology.</li>
+                                    <li className="list-disc">Sector-Wide Monitoring: Track regional and industry-wide compliance benchmarks in real time.</li>
+                                    <li className="list-disc">Global Standards Alignment: Simplify enforcement with AI-aligned reporting for frameworks like the EU Taxonomy.</li>
                                 </ul>
                             </div>
                             <img className="object-fill" src="/images/h2.webp" alt="" />
-                        </div>
-                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
-                            <div className="px-[30px]">
-                                <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (2).webp" alt="" />
-                                <h2 className="font-bold text-[#14192B] text-[20px]">For Regulators & Stakeholders</h2>
-                                <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
-                                    <li className="list-disc w-[96%]">Secure Reports: Access tamper-proof, blockchain-backed sustainability data.</li>
-                                    <li className="list-disc">Real-Time Monitoring: Evaluate industry benchmarks and sector-wide progress.</li>
-                                    <li className="list-disc">Global Alignment: Ensure compliance with emerging regulations like the EU Taxonomy.</li>
-                                </ul>
-                            </div>
-                            <img className="object-fill" src="/images/Rectangle 10 (2).webp" alt="" />
                         </div>
                     </div>
                 </div>
@@ -108,23 +116,23 @@ const Home = () => {
                 <div className="flex py-[2px] px-[80px] w-[87%] flex-row relative top-[-300px] left-[5%] sm:px-[20px] md:px-[20px] lg:px-[80px] sm:top-[-100px] md:top-[-100px] lg:top-[-300px] sm:flex-col md:flex-col lg:flex-row" data-aos="fade-right">
                     <div className="bg-[#358019] flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] rounded-l-lg sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
                         <img className="w-[28%] mb-[20px]" src="/icons/images-removebg-preview.webp" alt="" />
-                        <h2 className="font-bold text-center mb-[20px] text-[15px]">AI-Driven Compliance:</h2>
-                        <p className="font-bold text-center text-[15px] w-[90%]">Save time and reduce risks with automated ESG assessments</p>
+                        <h2 className="font-bold text-center mb-[20px] text-[15px]">AI-Driven ESG Solutions:</h2>
+                        <p className="font-bold text-center text-[15px] w-[90%]">Reduce reporting complexities and compliance risks with automated insights.</p>
                     </div>
                     <div className="bg-[#4BB022] flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
                         <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 1 (1).webp" alt="" />
                         <h2 className="font-bold text-center mb-[20px] text-[15px]">Blockchain-Powered Certifications:</h2>
-                        <p className="font-bold text-center text-[15px] w-[90%]">Issue tamper-proof eco-certifications that build trust and credibility.</p>
+                        <p className="font-bold text-center text-[15px] w-[90%]">Establish stakeholders' trust with tamper-proof Green-Badge eco-certifications</p>
                     </div>
                     <div className="bg-[#FBD048] text-black flex justify-center items-center flex-col px-[20px] py-[20px] w-[50%] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
                         <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 2.webp" alt="" />
-                        <h2 className="font-bold text-center mb-[20px] text-[15px]">Actionable Dashboards:</h2>
-                        <p className="font-bold text-center text-[15px] w-[90%]">Visualize key metrics and trends for strategic decision-making.</p>
+                        <h2 className="font-bold text-center mb-[20px] text-[15px]">Comprehensive Dashboards:</h2>
+                        <p className="font-bold text-center text-[15px] w-[90%]">Visualize performance metrics and trends for strategic ESG decisions.</p>
                     </div>
                     <div className="bg-[#D9D9D9] text-[#070707] flex justify-center items-center flex-col px-[10px] py-[15px] w-[50%] rounded-r-lg pb-[40px] pt-[30px] sm:mb-[10px] md:mb-[10px] lg:mb-0 sm:w-full md:w-[80%] lg:w-[50%]">
                         <img className="w-[28%] mb-[20px]" src="/icons/wired-outline-2665-logo-circle-bitcoin-hover-pinch 3.webp" alt="" />
-                        <h2 className="font-bold text-center mb-[20px] text-[15px]">Scalable Solutions:</h2>
-                        <p className="font-bold text-center text-[15px] w-[90%]">Achieve sustainability goals, regardless of size, industry or region</p>
+                        <h2 className="font-bold text-center mb-[20px] text-[15px]">Scalable for All:</h2>
+                        <p className="font-bold text-center text-[15px] w-[90%]">Designed for businesses, consultants and regulators across industries and regions.</p>
                     </div>
                 </div>
             </section>
@@ -134,7 +142,7 @@ const Home = () => {
                     <h2 className="font-bold text-left text-[#14192B] pl-[60px] text-[25px] text-center sm:pl-[10px] md:pl-[10px] lg:pl-[60px] sm:text-[22px] md:text-[25px] lg:text-[30px]">Start Your Sustainability Journey Today</h2>
                     <div className="flex border bg-gradient-to-r from-[#011F29] to-[#03FF95] rounded-md pt-[30px] pl-[70px] pr-[5px] mt-[30px] sm:pl-[20px] md:pl-[20px] lg:pl-[70px] sm:flex-col md:flex-col lg:flex-row">
                         <div>
-                        <p className="mb-[10px]">Take charge of your ESG reporting with AI-powered insights and blockchain-backed trust. Experience transparent, efficient and secure sustainability reporting like never before.</p>
+                        <p className="mb-[10px]">Empower your ESG compliance strategy with AI-driven insights and blockchain-backed transparency. Take the next step in building trust and scaling sustainable practices.</p>
                         <div className='text-[12px] flex w-[120%] sm:flex-col md:flex-col lg:flex-row'>
                             <a href="/register" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px] sm:mb-[10px] md:mb-[10px] lg:mb-0" type="button">Get Started</button></a>
                             <a href="/register" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px] sm:mb-[10px] md:mb-[10px] lg:mb-0" type="button">Request a Demo</button></a>
@@ -154,7 +162,7 @@ const Home = () => {
                             <img className="w-[30%] mt-[30px]" src="/images/Rectangle 20.webp" alt="" />
                             <div className="ml-[20px] sm:ml-0 md:ml-0 lg:ml-[20px] sm:mt-[20px] md:mt-[20px] lg:mt-0">
                                 <img className="w-[20%] mb-[20px]" src="/icons/Review.webp" alt="" />
-                                <p className="text-black w-[90%] mb-[20px] font-normal">“EcoReportAI made our ESG reporting 50% faster while building trust with blockchain-backed certifications. A game-changer for sustainability.”</p>
+                                <p className="text-black w-[90%] mb-[20px] font-normal">“EcoReportAI streamlined our ESG reporting process and improved stakeholder trust through Green-Badge certifications. This is super essential for modern businesses.”</p>
                                 <div className="flex justify-left items-center">
                                     <h2 className="font-bold text-[#14192B] text-[18px] mr-[10px]">— Samuel D.,</h2>
                                     <p className="text-[#64748B] text-[14px]">Sustainability Manager</p>
@@ -165,10 +173,10 @@ const Home = () => {
                             <img className="w-[25%] mt-[30px]" src="/images/Rectangle 21.webp" alt="" />
                             <div className="ml-[20px] sm:ml-0 md:ml-0 lg:ml-[20px] sm:mt-[20px] md:mt-[20px] lg:mt-0">
                                 <img className="w-[20%] mb-[20px]" src="/icons/Review.webp" alt="" />
-                                <p className="text-black w-[90%] mb-[20px] font-normal sm:w-full md:w-full lg:w-[90%]">“The seamless integration with our ERP and AI insights saved countless hours. Highly recommend EcoReportAI!”</p>
+                                <p className="text-black w-[90%] mb-[20px] font-normal sm:w-full md:w-full lg:w-[90%]">“For regulators, tamper-proof compliance data simplifies enforcement. This is an invaluable tool for tracking benchmarks and industry standards.”</p>
                                 <div className="flex justify-left items-center">
                                     <h2 className="font-bold text-[#14192B] text-[18px] mr-[10px]">— Felix T.,</h2>
-                                    <p className="text-[#64748B] text-[14px]">CEO</p>
+                                    <p className="text-[#64748B] text-[14px]">Regional Compliance Officer</p>
                                 </div>
                             </div>
                         </div>
@@ -179,42 +187,42 @@ const Home = () => {
             <section>
                 <div>
                     <h2 className="font-bold text-left text-[#14192B] text-[30px] text-center sm:text-[22px] md:text-[25px] lg:text-[30px]">Pricing</h2>
-                    <p className="text-[#4B5262] text-center">Flexible Plans for Businesses, Professionals and Regulators</p>
+                    <p className="text-[#4B5262] text-center">Flexible Plans for Businesses, Stakeholders and Regulators</p>
                     <div className="flex pt-[30px] pb-[10px] justify-center items-center flex-row sm:flex-col md:flex-col lg:flex-row" data-aos="fade-right">
                         <div className="rounded-md pt-[20px] w-[25%] mr-[40px] shadow-md border-[#03FF95] border sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:mr-0 md:mr-0 lg:mr-[40px] sm:w-[90%] md:w-[50%] lg:w-[25%]">
                             <div className="flex justify-center flex-col items-center">
-                                <h2 className="font-bold text-[#14192B] text-[20px] px-[10px] text-center">For Businesses & Corporations </h2>
+                                <h2 className="font-bold text-[#14192B] text-[20px] px-[7px] text-center">For Businesses & Corporations </h2>
                                 <p className="text-[#4B5262] text-[15px] mt-[10px]">Enterprise Package</p>
                                 <h2 className="font-bold text-[#14192B] text-[35px] my-[20px]">$199<span className="font-normal text-[18px]">/Starter</span></h2>
                                 <hr className="w-full" />
                                 <ul className="text-black text-[14px] space-y-2 mb-[10px] ml-[20px] px-[30px] mt-[30px]">
-                                    <li className="list-disc">Features: Data integration, AI-powered reporting, blockchain-backed certifications, compliance tracking…</li>
+                                    <li className="list-disc">Features: ESG Data Integration, AI-driven reporting, Green-Badge blockchain certifications and real-time monitoring.</li>
                                 </ul>
                                 <a href="/" rel="noopener noreferrer"><button  className="px-[45px] py-[13px] my-[30px] border-none text-white bg-gradient-to-r from-[#143E14] to-[#6FB432] rounded-[10px]" type="button">Get Started</button></a>
                             </div>
                         </div>
                         <div className="rounded-md bg-gradient-to-r from-[#143E14] to-[#6FB432] pt-[20px] w-[25%] mr-[40px] shadow-md border-[#03FF95] border sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:mr-0 md:mr-0 lg:mr-[40px] sm:w-[90%] md:w-[50%] lg:w-[25%]">
                             <div className="flex justify-center flex-col items-center text-white">
-                                <h2 className="font-bold text-[20px] px-[10px] text-center">For Professionals & Consultants </h2>
-                                <p className="text-[15px] mt-[10px]">Consultant Package</p>
-                                <h2 className="font-bold text-[35px] my-[20px]">$99<span className="font-normal text-[18px]">/Starter</span></h2>
+                                <h2 className="font-bold text-[20px] px-[10px] text-center">For Stakeholders & Investors</h2>
+                                <p className="text-[15px] mt-[10px]">Stakeholder Insights Package</p>
+                                <h2 className="font-bold text-[35px] my-[20px]">$149<span className="font-normal text-[18px]">/Starter</span></h2>
                                 <hr className="w-full" />
                                 <ul className="text-[14px] space-y-2 mb-[20px] ml-[20px] px-[30px] mt-[30px]">
-                                    <li className="list-disc">Features: Analytics tools, custom reports, consulting recommendations…</li>
+                                    <li className="list-disc">Features: Verified reports, risk reduction, industry benchmarks and compliance scoring.</li>
                                 </ul>
-                                <a href="/" rel="noopener noreferrer"><button  className="px-[45px] py-[13px] my-[30px] border-none text-[#29591B] bg-white rounded-[10px] sm:my-[20px] md:my-[20px] lg:my-[35px]" type="button">Get Started</button></a>
+                                <a href="/" rel="noopener noreferrer"><button  className="px-[45px] py-[13px] my-[20px] border-none text-[#29591B] bg-white rounded-[10px] sm:my-[20px] md:my-[20px] lg:my-[33px]" type="button">Get Started</button></a>
                             </div>
                         </div>
                         <div className="rounded-md pt-[20px] w-[25%] mr-[40px] shadow-md border-[#03FF95] border sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:mr-0 md:mr-0 lg:mr-[40px] sm:w-[90%] md:w-[50%] lg:w-[25%]">
                             <div className="flex justify-center flex-col items-center">
-                                <h2 className="font-bold text-[#14192B] text-[20px] px-[10px] text-center">For Regulators & Stakeholders</h2>
+                                <h2 className="font-bold text-[#14192B] text-[20px] px-[10px] text-center">For Regulators</h2>
                                 <p className="text-[#4B5262] text-[15px] mt-[10px]">Regulatory Package</p>
                                 <h2 className="font-bold text-[#14192B] text-[35px] my-[20px]">$299<span className="font-normal text-[18px]">/Starter</span></h2>
                                 <hr className="w-full" />
                                 <ul className="text-black text-[14px] mb-[10px] ml-[20px] px-[30px] mt-[30px]">
-                                    <li className="list-disc">Features: Real-time monitoring, benchmarking, white-label certifications, eco-certification verification.</li>
+                                    <li className="list-disc">Features: Features: Region-wide compliance tracking, tamper-proof submissions, white-label certifications and eco-verifications.</li>
                                 </ul>
-                                <a href="/" rel="noopener noreferrer"><button  className="px-[45px] py-[13px] my-[20px] border-none text-white bg-gradient-to-r from-[#143E14] to-[#6FB432] rounded-[10px] sm:my-[20px] md:my-[20px] lg:my-[25px]" type="button">Get Started</button></a>
+                                <a href="/" rel="noopener noreferrer"><button  className="px-[45px] py-[13px] my-[20px] border-none text-white bg-gradient-to-r from-[#143E14] to-[#6FB432] rounded-[10px] sm:my-[20px] md:my-[20px] lg:my-[27px]" type="button">Get Started</button></a>
                             </div>
                         </div>
                     </div>
@@ -254,7 +262,7 @@ const Home = () => {
                     <h2 className="font-bold text-left text-[#14192B] text-[30px] text-center sm:text-[22px] md:text-[25px] lg:text-[30px]">About Us</h2>
                     <p className="text-[#4B5262] text-center">Who we are</p>
                     <div className="px-[60px] text-center sm:px-[20px] md:px-[20px] lg:px-[60px]">
-                        <p className="text-[#4B5262] mt-[30px]">EcoReportAI revolutionizes sustainability reporting through AI and blockchain technology. Our platform simplifies ESG compliance, provides actionable insights and ensures alignment with global sustainability standards. Committed to transparency, accountability and innovation, we empower businesses, consultants and regulators to drive meaningful change for a sustainable future..</p>
+                        <p className="text-[#4B5262] mt-[30px]">At EcoReportAI, we revolutionize ESG compliance with AI-powered insights and blockchain-secured solutions. Through the Green-Badge Framework, we deliver trust and transparency by offering tamper-proof eco-certifications. Together, we help organizations, regulators and investors build a sustainable future.</p>
                     </div>                 
                 </div>
             </section>

@@ -6,7 +6,7 @@ function Footer () {
                     <div className="flex flex-col">
                         <h2 className="text-white text-[18px] font-bold mb-[40px]">Contact</h2>
                         <a className="text-[15px] mb-[20px]" href="">contact@ecoreportai.com </a>
-                        <a className="text-[15px] mb-[20px]" href="">+2348028157761</a>
+                        <a className="text-[15px] mb-[20px]" href="">+2348028157751</a>
                     </div>  
                     <div className="flex flex-col">
                         <h2 className="text-white text-[18px] font-bold mb-[40px]">Legal</h2>
@@ -22,7 +22,7 @@ function Footer () {
                         </div>
                     </div>  
                 </div>
-                <h2 className="text-center mt-[30px] sm:text-[15px] md:text-[15px] lg:text-[16px]">@Copyright 2025 (Adsoft Online Ltd)</h2>
+                <h2 className="text-center mt-[30px] sm:text-[15px] md:text-[15px] lg:text-[16px]">@Copyright 2025 (EcoReportAI)</h2>
             </div>
         </>
     )
