@@ -90,19 +90,19 @@ const Home = () => {
                                     <li className="list-disc">Data-Driven Investments: Leverage insights to make informed ESG investment and partnership decisions.</li>
                                 </ul>
                             </div>
-                            <img className="" src="/images/Rectangle 10.webp" alt="" />
+                            <img className="object-fill" src="/images/h2.webp" alt="" />
                         </div>
-                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
+                        <div className="bg-green-100 rounded-md pt-[20px] w-[35%] mr-[40px] shadow-md mb-[20px] sm:mr-[10px] md:mr-[10px] lg:mr-[40px] sm:w-[95%] md:w-[60%] lg:w-[35%]">
                             <div className="px-[20px]">
                                 <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1 (2).webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Regulators</h2>
-                                <ul className="text-black text-[11px] space-y-2 mt-[10px] mb-[20px] ml-[20px]">
+                                <ul className="text-black text-[11px] space-y-1 mt-[10px] mb-[10px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Tamper-Proof Compliance Data: Ensure security and traceability of submitted ESG reports with blockchain technology.</li>
                                     <li className="list-disc">Sector-Wide Monitoring: Track regional and industry-wide compliance benchmarks in real time.</li>
                                     <li className="list-disc">Global Standards Alignment: Simplify enforcement with AI-aligned reporting for frameworks like the EU Taxonomy.</li>
                                 </ul>
                             </div>
-                            <img className="object-fill" src="/images/h2.webp" alt="" />
+                            <img className="" src="/images/Rectangle 10.webp" alt="" />
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@ const Home = () => {
                             <div className="flex justify-center flex-col items-center text-white">
                                 <h2 className="font-bold text-[20px] px-[10px] text-center">For Stakeholders & Investors</h2>
                                 <p className="text-[15px] mt-[10px]">Stakeholder Insights Package</p>
-                                <h2 className="font-bold text-[35px] my-[20px]">$149<span className="font-normal text-[18px]">/Starter</span></h2>
+                                <h2 className="font-bold text-[35px] my-[20px]">$99<span className="font-normal text-[18px]">/Starter</span></h2>
                                 <hr className="w-full" />
                                 <ul className="text-[14px] space-y-2 mb-[20px] ml-[20px] px-[30px] mt-[30px]">
                                     <li className="list-disc">Features: Verified reports, risk reduction, industry benchmarks and compliance scoring.</li>
