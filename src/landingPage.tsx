@@ -72,7 +72,7 @@ const Home = () => {
                             <div className="px-[14px]">
                                 <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1.webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Businesses & Corporations</h2>
-                                <ul className="text-black text-[11px] space-y-1 mt-[10px] mb-[20px] ml-[20px]">
+                                <ul className="text-black text-[11px] space-y-3 mt-[10px] mb-[20px] ml-[20px]">
                                     <li className="list-disc w-[96%]">Automated ESG Data Integration: Seamlessly collect data from internal and external systems in real-time.</li>
                                     <li className="list-disc">AI-Powered Insights: Benchmark performance against global standards like GRI, CSRD and SASB.</li>
                                     <li className="list-disc">Compliance Simplified: Generate actionable, audit-ready ESG reports tailored for regulations and stakeholders.</li>
