@@ -52,7 +52,7 @@ const Home = () => {
                 <div className="header pt-[60px] pl-[80px] text-black bg-gradient-to-b from-[#03FF95] to-[#011F29] sm:pl-[30px] md:pl-[30px] lg:pl-[80px]" data-aos="fade-down">
                     <div className='flex justify-center items-center flex-row sm:items-start md:items-start lg:items-center sm:flex-col md:flex-col lg:flex-row'>
                         <div className="pt-[40px] w-[70%] sm:w-[90%] md:w-[70%] lg:w-[70%]">
-                            <h2 className="h mb-2 text-[50px] text-white leading-[60px] font-bold mb-[30px] w-[90%]  sm:w-full md:w-[98%] lg:w-[90%] sm:text-[25px] md:text-[32px] sm:leading-[30px] md:leading-[40px] lg:text-[50px] lg:leading-[60px]">Scaling ESG Compliance with AI and Blockchain Trust</h2>
+                            <h2 className="h mb-2 text-[50px] text-white leading-[60px] font-bold mb-[30px] w-[90%]  sm:w-full md:w-[98%] lg:w-[90%] sm:text-[25px] md:text-[32px] sm:leading-[30px] md:leading-[40px] lg:text-[50px] lg:leading-[60px]">Scaling ESG Compliance Across Industries with AI & Blockchain Trust</h2>
                             <p className='w-[85%] text-white font-bold text-bold text-[17px] mb-7 sm:text-[15px] md:text-[16px] lg:text-[16px] sm-full md:w-full lg:w-[85%] sm:text-[13px] md:text-[14px] lg:text-[17px]'>EcoReportAI simplifies sustainability reporting and ensures compliance with AI-powered insights and blockchain-secured Green-Badge eco-certifications, building trust across businesses, investors and regulatory networks.</p>
                             <div className='text-[14px] sm:mb-[20px] md:mb-[20px] lg:mb-0'>
                                 <a href="/" rel="noopener noreferrer"><button  className="px-[20px] py-[5px] border-none mr-[20px] text-white bg-gradient-to-r from-[#03FF95] to-[#008890] rounded-[4px]" type="button">Get Started</button></a>
@@ -73,7 +73,7 @@ const Home = () => {
                                 <img className="w-[20%]" src="/icons/wired-gradient-948-stock-share 1.webp" alt="" />
                                 <h2 className="font-bold text-[#14192B] text-[20px]">For Businesses & Corporations</h2>
                                 <ul className="text-black text-[11px] space-y-1 mt-[10px] mb-[20px] ml-[20px]">
-                                    <li className="list-disc w-[96%]">Automated ESG Data Collection: Seamlessly connect to internal and external systems for real-time data integration.</li>
+                                    <li className="list-disc w-[96%]">Automated ESG Data Integration: Seamlessly collect data from internal and external systems in real-time.</li>
                                     <li className="list-disc">AI-Powered Insights: Benchmark performance against global standards like GRI, CSRD and SASB.</li>
                                     <li className="list-disc">Compliance Simplified: Generate actionable, audit-ready ESG reports tailored for regulations and stakeholders.</li>
                                 </ul>
